@@ -2,7 +2,7 @@
 """Variable Annotations"""
 
 
-def concat(str1, str2):
+def concat(str1: str, str2: str) ->str:
     """concatenate string"""
-    summa = f"{str1} + {str2}"
+    summa = str1 + str2
     return summa
