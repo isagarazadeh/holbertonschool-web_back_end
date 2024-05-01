@@ -4,4 +4,5 @@
 
 def concat(str1, str2):
     """concatenate string"""
-    print("{} + {}",str1 + str2)
+    summa = str1 + str2
+    return summa
