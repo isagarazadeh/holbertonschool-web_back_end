@@ -8,7 +8,7 @@ wait_random = __import__('0-basic_async_syntax').wait_random
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
     """function"""
-    waits = [wait_random(max_delay),for i in range (0, n)]
+    waits = [wait_random(max_delay), for i in range (0, n)]
     dely = []
     for i in asyncio.as_completed(waits):
         delay = await i
