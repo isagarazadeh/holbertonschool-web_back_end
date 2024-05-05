@@ -8,4 +8,4 @@ def sum_list(imput_list: List[float]) -> float:
     summa = 0
     for i in imput_list:
         summa += i
-    return total
+    return summa
