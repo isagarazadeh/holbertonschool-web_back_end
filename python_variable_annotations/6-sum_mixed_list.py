@@ -3,9 +3,9 @@
 from typing import Union, List
 
 
-def sum_list(imput_list: List[Union[float,int]]) -> float:
+def sum_mixed_list(mxd_lst: List[Union[float,int]]) -> float:
     """summing lists"""
     summa = 0
-    for i in imput_list:
+    for i in mxd_lst:
         summa += i
     return summa
