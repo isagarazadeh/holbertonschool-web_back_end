@@ -5,4 +5,7 @@ from typing import List
 
 def sum_list(imput_list: List[float]) -> float:
     """summing lists"""
-    return flaot(imput_list)
+    summa = 0
+    for i in imput_list:
+        summa += i
+    return total
