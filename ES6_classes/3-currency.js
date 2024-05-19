@@ -1,4 +1,4 @@
-// eslint no-underscore-dangle: 0
+// Declaration
 export default class Currency {
   constructor(code, name) {
     this._name = name;
